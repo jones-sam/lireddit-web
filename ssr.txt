@@ -1,0 +1,9 @@
+server side rendering explanation
+
+me -> browse http://localhost:3000
+-> next.js server
+-> request graphql server localhost:4000
+-> building the HTML
+-> sending back to your browser
+
+(in nextjs, only the first page you load will use ssr, if it is enabled)
